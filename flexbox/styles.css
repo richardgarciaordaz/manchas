@@ -1,0 +1,278 @@
+/*Global */
+
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: 
+  #031875;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Outfit', 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+a {
+  color:aliceblue;
+}
+
+p {
+  color: aliceblue;
+}
+
+.title {
+  color: #7b337d;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 48px;
+  padding-top: 96px;
+  border-top: 1px black solid;
+  background-color: black;
+}
+
+
+/*    Navbar    */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #671168
+  ;
+  border-radius: 25px;
+}
+
+.header-logo {
+  height: 36px;
+  margin-left: 24px;
+  border-radius: 12px;
+  border: 2px solid #4c1e3c;
+  transition: all 2.0s;
+}
+
+.header-logo:hover {
+  transform: rotate(360deg);
+  transition: all 2.0s;
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 12px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.nav-links a:hover {
+  background-color: #031875;
+  cursor: pointer;
+  color:aliceblue;
+  text-shadow: 2px 2px 1px black;
+  border-radius: 10px;
+}
+
+
+/*    Main Info    */
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 400px;
+  max-width: 1000px;
+  margin: 128px 72px 72px;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: flex-start;
+  padding-left: 32px;
+}
+
+.textbox h1 {
+  color: #7b337d;
+  text-shadow: 2px 2px black;
+}
+
+.textbox p {
+  color:aliceblue;
+  padding-bottom: 30px;;
+}
+
+.main-img {
+  max-width: 400px;
+  border-radius: 12px;
+  padding-top: 85px;
+}
+
+.subscribe-button {
+  font-weight: 900;
+  padding: 4px 24px;
+  border-radius: 12px;
+  background-color: #7b337d;
+ margin-left: 130px;
+}
+
+.subscribe-button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+/*  Meet the Dog  */
+.dog-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: black;
+  padding: 0px 24px 96px 24px;
+}
+
+.the-dog {
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.doggy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 8px;
+  padding: 24px;  
+  color: aliceblue;
+  text-shadow: 2px 2px 1px black;
+}
+
+.doggy-pic {
+  width: 200px;
+  height: 200px;
+  border: 12px solid rgb(230, 250, 250);
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px black;
+  object-fit: cover;
+}
+
+.kitty-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.message {
+  padding-top: 50px;
+  color: aliceblue;
+}
+
+
+/*    Message     */
+.message-section {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 128px 96px;
+  background-color:  #031875;
+  border-bottom: solid black 1px;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+  height: 350px;
+}
+
+.message-section p {
+  text-align: end;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+  padding-top: 30px;
+}
+
+
+
+
+
+/* Contact */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  text-shadow: black 1px 1px;
+}
+
+.contact-info-container {
+  margin-bottom: 100px;
+}
+
+.contact-info-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.contact-icon {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+}
+
+.contact-section a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
+
+.contact-section a:hover {
+  color: lightskyblue;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
+
+/*    Footer    */
+footer p {
+  padding: 24px;
+  text-align: center;
+  color: aliceblue;
+  background-color: #1c1026
+}
+
+footer a {
+  color: aliceblue;
+};
